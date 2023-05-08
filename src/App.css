@@ -1,0 +1,127 @@
+.Container{
+    background-image: url("https://resizer.glanacion.com/resizer/uREIn1luAvrG-QoAj4eifBbozto=/768x0/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/K6NOV2XS5NBFVCYMFJ2EOVTZTE.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100vh;
+}
+
+.Container[data-condition='Moderate rain'] {
+    background-image: url("https://img.freepik.com/fotos-premium/cielo-panoramico-nubes-dia-soleado_355067-1129.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 110vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+  }
+
+  .Container[data-condition="Partly cloudy"] {
+    background-image: url("https://us.123rf.com/450wm/hdmphoto/hdmphoto1507/hdmphoto150700182/45818348-las-nubes-del-cielo-y-el-sol-en-brillante-d%C3%ADa-de-verano.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 110vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+  }
+  
+  
+  .Container[data-condition='Mist']{
+    background-image: url("./images/mist-day.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 110vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+   
+  }
+
+  .Container[data-condition='Light rain shower']{
+    background-image: url("./images/Lluvia-hierva.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 110vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+   
+  }
+
+  .Container[data-condition='Light rain']{
+    background-image: url("./images/light-rain.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 110vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+   
+  }
+
+  .Container[data-condition='Sunny']{
+    background-image: url("./images/dia-soleado.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 110vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+   
+  }
+
+  .Container[data-condition='Cloudy']{
+    background-image: url("./images/clouds.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 110vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+   
+  }
+
+  .Container[data-condition='Clear']{
+    background-image: url("./images/half-moon.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 110vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    color: beige;
+   
+  }
+
+  .Container[data-condition='Overcast']{
+    background-image: url("./images/mist-day.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 110vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+   
+  }
+
+
+
+  
+  
+  #root{
+    text-align: center;
+    margin-top: -20px;
+  }
+  
+
