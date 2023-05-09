@@ -115,6 +115,20 @@
    
   }
 
+  .Container[data-condition='Moderate rain']{
+    background-image: url("./images/moderate-rain.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 110vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    color: beige;
+   
+  }
+  
+
 
 
   

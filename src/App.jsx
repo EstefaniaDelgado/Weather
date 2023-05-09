@@ -52,7 +52,6 @@ const handlerSubmit = async(e)=>{
     if(!city.trim()) throw {message: "El campo ciudad es obligatorio"}
   const response= await fetch(`${API_WEATHER}${city}`)
   const data = await response.json();
-  console.log(data)
   //si existe algun error throw lo muestra y en el catch lo setea al message del objeto error
   if(data.error) throw {message:data.error.message}
   setWeather({
@@ -109,7 +108,7 @@ const onClose = (name)=>{
      Wheater App
      </Typography>
 
-     <Box  sx={{display:"flex", flexDirection:"column" }}  component="form" autoComplete="off"
+     <Box  sx={{display:"flex", flexDirection:"column", flexWrap:"wrap" }}  component="form" autoComplete="off"
      onSubmit={handlerSubmit}>
 
       <TextField
@@ -147,7 +146,7 @@ const onClose = (name)=>{
           }}
         >
         <IconButton  onClick={()=>onClose(weather.city)}>
-          {condition === "Clear" ? <HighlightOffIcon sx={{color:"white"}}  /> : <HighlightOffIcon sx={{color:"black"}}  />}
+          {condition === "Clear" || condition==="Moderate rain" ? <HighlightOffIcon sx={{color:"white"}}  /> : <HighlightOffIcon sx={{color:"black"}}  />}
         
        </IconButton>
 
