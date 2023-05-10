@@ -5,7 +5,7 @@ import { Box,Container, TextField, Typography, IconButton } from "@mui/material"
 import {useState} from "react";
 import HighlightOffIcon from '@mui/icons-material/HighlightOff';
 import "./App.css"
-import Clock from "./Clock";
+import Clock from "./components/Clock";
 
 const API_WEATHER = `https://api.weatherapi.com/v1/current.json?key=${import.meta.env.VITE_API_KEY}&q=`
 
@@ -204,29 +204,3 @@ export default App
 
 
 
-/* let backgroundImage;
-  if (isLoading) {
-    switch (condition) {
-      case 'Moderate rain':
-        backgroundImage = 'url("https://img.freepik.com/fotos-premium/cielo-panoramico-nubes-dia-soleado_355067-1129.jpg")';
-        break;
-      case 'Partly cloudy':
-        backgroundImage = 'url("https://us.123rf.com/450wm/hdmphoto/hdmphoto1507/hdmphoto150700182/45818348-las-nubes-del-cielo-y-el-sol-en-brillante-d%C3%ADa-de-verano.jpg")';
-        break;
-      case 'Rain':
-      case 'Drizzle':
-        backgroundImage = 'url(rainy.jpg)';
-        break; 
-       case 'Mist':
-        backgroundImage = 'url("https://resources.diariolibre.com/images/binrepository/nublado_11684706_20190524130057-focus-0-0-375-240.jpg")';
-        break; 
-        case 'Mist':
-        backgroundImage = 'url(snowy.jpg)';
-        break; 
-      default:
-        backgroundImage = 'url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSSOQ-uyZQbV_Ab0z3-1KY9Bwh_-3-O3sXzA&usqp=CAU")';
-        break;
-    }
-  } 
-
- */
