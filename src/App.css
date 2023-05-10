@@ -1,5 +1,5 @@
 .Container{
-    background-image: url("https://resizer.glanacion.com/resizer/uREIn1luAvrG-QoAj4eifBbozto=/768x0/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/K6NOV2XS5NBFVCYMFJ2EOVTZTE.jpg");
+  background-image: url("./images/default-background.avif");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -8,7 +8,7 @@
 }
 
 .Container[data-condition='Moderate rain'] {
-    background-image: url("https://img.freepik.com/fotos-premium/cielo-panoramico-nubes-dia-soleado_355067-1129.jpg");
+    background-image: url("./images/moderate-rain.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -19,7 +19,7 @@
   }
 
   .Container[data-condition="Partly cloudy"] {
-    background-image: url("https://us.123rf.com/450wm/hdmphoto/hdmphoto1507/hdmphoto150700182/45818348-las-nubes-del-cielo-y-el-sol-en-brillante-d%C3%ADa-de-verano.jpg");
+    background-image: url("./images/partly-cloudy.webp");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -67,7 +67,7 @@
   }
 
   .Container[data-condition='Sunny']{
-    background-image: url("./images/dia-soleado.avif");
+    background-image: url("./images/sunny-day.avif");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -127,6 +127,19 @@
     color: beige;
    
   }
+
+  .Container[data-condition='Moderate or heavy rain with thunder']{
+    background-image: url("./images/heavy-rain-thunder.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 110vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    
+   
+  }
  
   #root{
     text-align: center;
@@ -134,3 +147,19 @@
   }
   
 
+
+
+
+
+
+
+
+
+
+ /*  https://resizer.glanacion.com/resizer/uREIn1luAvrG-QoAj4eifBbozto=/768x0/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/K6NOV2XS5NBFVCYMFJ2EOVTZTE.jpg */
+
+ /* https://img.freepik.com/fotos-premium/cielo-panoramico-nubes-dia-soleado_355067-1129.jpg */
+
+/*  https://us.123rf.com/450wm/hdmphoto/hdmphoto1507/hdmphoto150700182/45818348-las-nubes-del-cielo-y-el-sol-en-brillante-d%C3%ADa-de-verano.jpg */
+
+/* https://cdn.pixabay.com/photo/2021/04/11/18/03/storm-6170459_1280.jpg */
