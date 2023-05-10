@@ -139,7 +139,7 @@ const onClose = (name)=>{
      </Box>
      
     
-     {weather.city && (
+     {weather.city ? (
         <Box
           sx={{
             mt: 2,
@@ -180,19 +180,21 @@ const onClose = (name)=>{
           <Clock country={country}/>
         
         </Box>
-      )}
+      ):
+      <Typography
+      textAlign="center"
+      sx={{mt:2, direcction:"flex", fontSize:"10px"}}
+      >
+       Powered by: {""}
+       <a href="https://www.weatherapi.com/" target="_blank" 
+       title="Weather API"
+       >WeatherAPI.com</a>
+        
+      </Typography>
+      }
 
 
-     <Typography
-     textAlign="center"
-     sx={{mt:2, direcction:"flex", fontSize:"10px"}}
-     >
-      Powered by: {""}
-      <a href="https://www.weatherapi.com/"
-      title="Weather API"
-      >WeatherAPI.com</a>
-       
-     </Typography>
+    
       </Container>
     </>
   )
