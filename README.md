@@ -3,7 +3,7 @@
 
 CREATE PROJECT🌡:
 <hr>
-</br>
+
 
 If you put the dot at the end of the command is because  the folder has been created before and you want to create the project with vite in this folder, that's why vite won't ask you the name of the project.
 
@@ -11,7 +11,7 @@ If you put the dot at the end of the command is because  the folder has been cre
 
 INSTALLATION DEPENDENCIES🔧:
 <hr>
-</br>
+
 
 npm install @mui/material 
 </br>
@@ -39,17 +39,14 @@ Each of them receive some attribuites. For more information see the documentacio
 
 API WEATHER:
 <hr>
-</br>
 🌧 https://www.weatherapi.com/
 </br>
 API TIME:
 <hr>
-</br>
 ⏱ https://timezoneapi.io
 </br>
 
 DEPLOY 🚀:
 <hr>
-</br>
 Vercel.
 
