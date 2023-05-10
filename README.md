@@ -1,16 +1,16 @@
 # Weather 🌤
-Knowing the weather in your country could be useful
+☂Knowing the weather in your country could be useful
 
-Create Project 🌩🌡:
-</hr>
+CREATE PROJECT🌡:
+<hr>
 </br>
 
 If you put the dot at the end of the command is because  the folder has been created before and you want to create the project with vite in this folder, that's why vite won't ask you the name of the project.
 
  npm create vite@latest . 
 
-Installation dependencies 🔧:
-</hr>
+INSTALLATION DEPENDENCIES🔧:
+<hr>
 </br>
 
 npm install @mui/material 
@@ -38,17 +38,18 @@ This project has been created using the library of Material-UI, so that we are g
 Each of them receive some attribuites. For more information see the documentacion 👉https://mui.com/
 
 API WEATHER:
-</hr>
+<hr>
 </br>
 🌧 https://www.weatherapi.com/
 </br>
 API TIME:
-</hr>
+<hr>
 </br>
 ⏱ https://timezoneapi.io
+</br>
 
-Deploy 🚀:
-</hr>
+DEPLOY 🚀:
+<hr>
 </br>
 Vercel.
 
