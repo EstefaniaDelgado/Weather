@@ -112,6 +112,8 @@ const onClose = (name)=>{
      onSubmit={handlerSubmit}>
 
       <TextField
+      className="textInput"
+      sx={{background:"#f5f2f2", borderRadius:"5px"}}
       id="city"
       label="Ciudad"
       variant="outlined"
