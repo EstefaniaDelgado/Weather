@@ -137,10 +137,20 @@
     height: 110vh;
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    
-   
   }
- 
+
+  .Container[data-condition='Patchy rain possible']{
+    background-image: url("./images/patchy-rain-irregular.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 110vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+  }
+
+  
   #root{
     text-align: center;
     margin-top: -20px;
