@@ -5,7 +5,7 @@ CREATE PROJECT🌡:
 <hr>
 
 
-If you put the dot at the end of the command is because  the folder has been created before and you want to create the project with vite in this folder, that's why vite won't ask you the name of the project.
+If you put the dot at the end of the command is because  the folder has been created before and you want to create the project with Vite in this folder, that's why Vite won't ask you the name of the project.
 
  npm create vite@latest . 
 
@@ -23,7 +23,7 @@ npm install @mui/material
 </br>
 @mui/lab notistack
 
-This project has been created using the library of Material-UI, so that we are going to use some styled components from it, such as:
+This project was created using the library of Material-UI, so that we are going to use some styled components from it, such as:
 
 ▪Container.
 </br>
