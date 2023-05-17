@@ -161,6 +161,17 @@
     -moz-background-size: cover;
   }
 
+  .Container[data-condition='Thundery outbreaks possible']{
+    background-image: url("./images/thundery-possible.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 110vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+  }
+
   
   #root{
     text-align: center;
