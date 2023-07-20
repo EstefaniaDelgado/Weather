@@ -40,11 +40,11 @@ Each of them receive some attribuites. For more information see the documentacio
 API WEATHER:
 <hr>
 🌧 https://www.weatherapi.com/
-</br>
+
 API TIME:
 <hr>
 ⏱ https://timezoneapi.io
-</br>
+
 
 DEPLOY 🚀:
 <hr>
